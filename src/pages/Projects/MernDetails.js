@@ -5,8 +5,7 @@ import mobile from '../../components/projectsImage/mobile.jpg';
 import hotel from '../../components/projectsImage/hotel.webp';
 import lawer from '../../components/projectsImage/lawer.webp';
 import programmingSchool from '../../components/projectsImage/programmingSchool.webp';
-import { Link } from 'react-router-dom';
-const Mern = () => {
+const MernDetails = () => {
     return (
         <div className='w-full'>
             <div className="hero min-h-screen" style={{ backgroundImage: `url(${mern})` }}>
@@ -64,7 +63,7 @@ const Mern = () => {
                                 </ul>
                             </div>
                         </div>
-                        <Link to='/mobile'><button className="btn btn-primary">See Details</button></Link>
+                        <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
 
                 </div>
@@ -218,4 +217,4 @@ const Mern = () => {
     );
 };
 
-export default Mern;
+export default MernDetails;

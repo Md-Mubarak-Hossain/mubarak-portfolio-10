@@ -21,14 +21,17 @@ const Html = () => {
             {/* .....mobile..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-
+                    <div className='w-full'>
+                        <img src={mobile} className="rounded-lg shadow-2xl w-full" alt=''
+                        />
+                    </div>
                     <div className='w-full'>
                         <h1 className="text-5xl font-bold">MOBILE RESELL</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindHtml, EXPRESS.JS, NODE.JS, MongoDB
+                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>
@@ -41,7 +44,7 @@ const Html = () => {
                             <div>
                                 <h2 className='text-primary text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindHtml, EXPRESS.JS, NODE.JS, MongoDB
+                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>
@@ -62,10 +65,7 @@ const Html = () => {
                         </div>
                         <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
-                    <div className='w-full'>
-                        <img src={mobile} className="rounded-lg shadow-2xl w-full" alt=''
-                        />
-                    </div>
+
                 </div>
             </div>
             {/* .....hotel..... */}
@@ -80,7 +80,7 @@ const Html = () => {
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindHtml, EXPRESS.JS, NODE.JS, MongoDB
+                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>
@@ -93,7 +93,7 @@ const Html = () => {
                             <div>
                                 <h2 className='text-primary text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindHtml, EXPRESS.JS, NODE.JS, MongoDB
+                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>
@@ -119,14 +119,16 @@ const Html = () => {
             {/* .....programmingSchool..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-
+                    <div className='w-full'>
+                        <img src={programmingSchool} className="rounded-lg shadow-2xl w-full" alt='' />
+                    </div>
                     <div className='w-full'>
                         <h1 className="text-5xl font-bold">Programming School</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindHtml, EXPRESS.JS, NODE.JS, MongoDB
+                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>
@@ -139,7 +141,7 @@ const Html = () => {
                             <div>
                                 <h2 className='text-primary text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindHtml, EXPRESS.JS, NODE.JS, MongoDB
+                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>
@@ -160,9 +162,7 @@ const Html = () => {
                         </div>
                         <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
-                    <div className='w-full'>
-                        <img src={programmingSchool} className="rounded-lg shadow-2xl w-full" alt='' />
-                    </div>
+
                 </div>
             </div>
             {/* .....lawer ghhor..... */}
@@ -177,7 +177,7 @@ const Html = () => {
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindHtml, EXPRESS.JS, NODE.JS, MongoDB
+                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>
@@ -190,7 +190,7 @@ const Html = () => {
                             <div>
                                 <h2 className='text-primary text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindHtml, EXPRESS.JS, NODE.JS, MongoDB
+                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>

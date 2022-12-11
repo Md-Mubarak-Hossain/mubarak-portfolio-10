@@ -21,7 +21,10 @@ const Reac = () => {
             {/* .....mobile..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-
+                    <div className='w-full'>
+                        <img src={mobile} className="rounded-lg shadow-2xl w-full" alt=''
+                        />
+                    </div>
                     <div className='w-full'>
                         <h1 className="text-5xl font-bold">MOBILE RESELL</h1>
                         <div className="py-6">
@@ -62,10 +65,7 @@ const Reac = () => {
                         </div>
                         <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
-                    <div className='w-full'>
-                        <img src={mobile} className="rounded-lg shadow-2xl w-full" alt=''
-                        />
-                    </div>
+
                 </div>
             </div>
             {/* .....hotel..... */}
@@ -119,7 +119,9 @@ const Reac = () => {
             {/* .....programmingSchool..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-
+                    <div className='w-full'>
+                        <img src={programmingSchool} className="rounded-lg shadow-2xl w-full" alt='' />
+                    </div>
                     <div className='w-full'>
                         <h1 className="text-5xl font-bold">Programming School</h1>
                         <div className="py-6">
@@ -160,9 +162,7 @@ const Reac = () => {
                         </div>
                         <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
-                    <div className='w-full'>
-                        <img src={programmingSchool} className="rounded-lg shadow-2xl w-full" alt='' />
-                    </div>
+
                 </div>
             </div>
             {/* .....lawer ghhor..... */}

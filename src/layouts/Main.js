@@ -14,7 +14,9 @@ const Main = () => {
             <BsMoon onClick={() => setThem('light')} className="swap-off fill-current w-5 h-5"></BsMoon>
         </label>
         <li><Link to='/'>Home</Link></li>
+        <li><Link to='/about'>About</Link></li>
         <li><Link to='/resume'><label className="btn btn-outline btn-primary btn-xs"><BsJournalCheck className='font-bold text-warning'></BsJournalCheck> Resume</label></Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/projects'>Projects</Link></li>
         <li><Link to='/skills'>Skills</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
