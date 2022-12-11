@@ -23,10 +23,10 @@ function Email() {
             );
     };
     return (
-        <div>
-            <h1> Contact</h1 >
-            <form id='contact' className=' w-full bg-slate-600 place-items-center flex flex-col justify-center items-center py-10' ref={form} onSubmit={sendEmail}>
-                <div className='w-1/2 border p-10'>
+        <div className='pt-10'>
+            <h1 className='text-start text-3xl text-pink-600 underlined w-full'>Stay Contact</h1 >
+            <form id='contact' className='w-full place-items-center flex flex-col justify-center items-center py-10' ref={form} onSubmit={sendEmail}>
+                <div className='w-1/2  p-10'>
                     <div className='form-control w-full py-2'>
                         <input type='text' className='input input-bordered' placeholder='Name' name='user_name' />
                     </div>

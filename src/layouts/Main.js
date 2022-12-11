@@ -2,13 +2,23 @@ import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import Footer from '../pages/shared/footer/Footer';
 import myImg from '../components/assets/halfImg-2.png';
+import { BsJournalCheck, BsSun, BsMoon } from 'react-icons/bs';
+import './Main.css';
+
 const Main = () => {
     const menu = <>
+        <label className="swap swap-rotate">
+            <input type="checkbox" />
+            <BsSun className="swap-on fill-current w-5 h-5"></BsSun>
+            <BsMoon className="swap-off fill-current w-5 h-5"></BsMoon>
+        </label>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/resume'>Resume</Link></li>
+        <label htmlFor="my-modal-5" className="btn btn-outline btn-primary btn-xs"><BsJournalCheck className='font-bold text-warning'></BsJournalCheck> Resume</label>
         <li><Link to='/projects'>Projects</Link></li>
         <li><Link to='#contact'>Contact</Link></li>
+
     </>
+
     return (
         <>
             <div className="drawer">
@@ -27,10 +37,10 @@ const Main = () => {
                                     <img src={myImg} alt="" />
                                 </div>
                             </div>
-                            <h2 className='lg:font-extrabold lg:text-2xl'>MUBARAK'S PORTFOLIO</h2>
+                            <h2 className='lg:font-extrabold lg:text-2xl underlined'>MUBARAK'S PORTFOLIO</h2>
                         </div>
                         <div className="flex-none hidden lg:block">
-                            <ul className="menu menu-horizontal">
+                            <ul className="menu menu-horizontal place-items-center">
                                 {menu}
                             </ul>
                         </div>
@@ -39,7 +49,7 @@ const Main = () => {
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="navbar-menu-portfolio" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 bg-base-100">
+                    <ul className="menu p-4 w-80 bg-base-50 place-items-center">
                         {menu}
                     </ul>
                 </div>

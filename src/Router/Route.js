@@ -2,7 +2,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from '../layouts/Main';
 import Home from '../pages/Home/Home';
-import Resume from '../pages/Home/Resume';
+import Resume from '../pages/Home/Skills';
 
 const Route = () => {
     const router = createBrowserRouter([

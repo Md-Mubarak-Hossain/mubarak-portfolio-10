@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@callstack/react-theme-provider": "^3.0.8",
     "@emailjs/browser": "^3.10.0",
     "@tanstack/react-query": "^4.19.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,11 +16,13 @@
     "react-external-link": "^2.0.0",
     "react-gmail": "^1.0.1",
     "react-icons": "^4.7.1",
+    "react-pdf": "^6.2.0",
     "react-photo-view": "^1.2.3",
     "react-router-dom": "^6.4.5",
     "react-scripts": "5.0.1",
     "react-theme-provider": "^0.1.3",
     "react-to-pdf": "^0.0.14",
+    "react-to-print": "^2.14.10",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },

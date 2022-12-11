@@ -1,79 +1,67 @@
 import React from 'react';
-
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+import mern from '../../components/assets/mern.webp';
+import react from '../../components/assets/react.png';
+import js from '../../components/assets/js.jpg';
+import css from '../../components/assets/css.jpg';
+import htmlImg from '../../components/assets/html.jpg';
+import '../../layouts/Main.css';
 const Projects = () => {
     return (
-        <div>
-            <h2>Projects</h2>
+        <div className='py-5'>
+            <div className='flex flex-col place-items-center'>
+                <p className='text-3xl font-bold'>Projects</p>
+                <p><AiOutlineFundProjectionScreen className='w-32 h-32 text-primary text-3xl font-extrabold'></AiOutlineFundProjectionScreen></p>
+            </div>
+            <h2 className='font-bold text-4xl text-primary underlined'>The Different Categories Projects</h2>
             <div className='p-5 grid grid-cols-1 gap-2 lg:grid-cols-4'>
                 <div className="card bg-base-100">
-                    <div className="card-body border">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div className="card-body flex flex-col place-items-center">
+                        <h2 className="card-title">MERN Stack</h2>
+                        <img src={mern} alt="" className='lg:h-32 lg:w-80' />
+                        <p>These are full stack projects.</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">See details</button>
+                            <button className="btn btn-outline btn-primary">See Projects</button>
                         </div>
                     </div>
                 </div>
                 <div className="card bg-base-100">
-                    <div className="card-body border">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div className="card-body flex flex-col place-items-center">
+                        <h2 className="card-title">REACT.JS</h2>
+                        <img src={react} alt="" className='lg:h-32 lg:w-80' />
+                        <p>These are react.js base projects</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">See details</button>
+                            <button className="btn btn-outline btn-primary">See Projects</button>
                         </div>
                     </div>
                 </div>
                 <div className="card bg-base-100">
-                    <div className="card-body border">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div className="card-body flex flex-col place-items-center">
+                        <h2 className="card-title">JavaScript</h2>
+                        <img src={js} alt="" className='lg:h-32 lg:w-80' />
+                        <p>These are raw JavaScript base projects</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">See details</button>
+                            <button className="btn btn-outline btn-primary">See Projects</button>
                         </div>
                     </div>
                 </div>
                 <div className="card bg-base-100">
-                    <div className="card-body border">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div className="card-body flex flex-col place-items-center">
+                        <h2 className="card-title">CSS</h2>
+                        <img src={css} alt="" className='lg:h-32 lg:w-80' />
+                        <p>These are raw css3, tailwindcss, bootstrap, materialUI base projects</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">See details</button>
+                            <button className="btn btn-outline btn-primary">See Projects</button>
                         </div>
                     </div>
                 </div>
                 <div className="card bg-base-100">
-                    <div className="card-body border">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div className="card-body flex flex-col place-items-center">
+                        <h2 className="card-title">HTML5</h2>
+                        <img src={htmlImg} alt="" className='lg:h-32 lg:w-80' />
+                        <p>These are html5 base projects</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">See details</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100">
-                    <div className="card-body border">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">See details</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100">
-                    <div className="card-body border">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">See details</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100">
-                    <div className="card-body border">
-                        <h2 className="card-title">Card title!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">See details</button>
+                            <button className="btn btn-outline btn-primary">See Projects</button>
                         </div>
                     </div>
                 </div>

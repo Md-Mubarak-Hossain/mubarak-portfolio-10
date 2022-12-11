@@ -1,0 +1,20 @@
+.underlined {
+    position: relative;
+    display: inline-block !important;
+}
+
+.underlined::before {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    height: 5px;
+    width: 100% !important;
+    border: solid 5px rgb(255, 128, 0);
+    border-color: #fb059d transparent transparent transparent;
+    border-radius: 50%;
+}
+
+.big {
+    font-size: 50px;
+}
