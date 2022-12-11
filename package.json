@@ -5,6 +5,7 @@
   "dependencies": {
     "@callstack/react-theme-provider": "^3.0.8",
     "@emailjs/browser": "^3.10.0",
+    "@react-pdf/renderer": "^3.0.1",
     "@tanstack/react-query": "^4.19.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +14,8 @@
     "firebase": "^9.15.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-download": "^0.0.1",
+    "react-download-link": "^2.3.0",
     "react-external-link": "^2.0.0",
     "react-gmail": "^1.0.1",
     "react-icons": "^4.7.1",

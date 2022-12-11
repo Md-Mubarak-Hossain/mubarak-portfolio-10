@@ -15,6 +15,45 @@
     border-radius: 50%;
 }
 
+.resume {
+    position: relative;
+    display: inline-block !important;
+}
+
+.resume::before {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    height: 2px;
+    width: 100% !important;
+    border: solid 2px black;
+    border-color: black transparent transparent transparent;
+    /* border-radius: 50%; */
+    margin-bottom: 10px;
+}
+
+.A4 {
+    width: 794px;
+    height: 942px;
+
+}
+
+.A4Margin {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.A4Content {
+    width: 690px;
+}
+
+.A4Title {
+    width: 690px;
+}
+
 .big {
     font-size: 50px;
 }
