@@ -1,0 +1,19 @@
+[debug] [2022-12-11T13:49:19.421Z] ----------------------------------------------------------------------
+[debug] [2022-12-11T13:49:19.429Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\EC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-12-11T13:49:19.431Z] CLI Version:   11.17.0
+[debug] [2022-12-11T13:49:19.432Z] Platform:      win32
+[debug] [2022-12-11T13:49:19.432Z] Node Version:  v16.15.1
+[debug] [2022-12-11T13:49:19.448Z] Time:          Sun Dec 11 2022 19:49:19 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-12-11T13:49:19.449Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-11T13:49:19.709Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-11T13:49:19.711Z] > authorizing via signed-in user (hossainmubarak477@gmail.com)
+[debug] [2022-12-11T13:49:19.712Z] [iam] checking project mubarak-portfolio-10 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-11T13:49:19.718Z] > refreshing access token with scopes: []
+[debug] [2022-12-11T13:49:19.725Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-11T13:49:19.726Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-11T13:49:20.317Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-12-11T13:49:20.319Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-11T13:49:20.350Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mubarak-portfolio-10:testIamPermissions [none]
+[debug] [2022-12-11T13:49:20.350Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mubarak-portfolio-10:testIamPermissions x-goog-quota-user=projects/mubarak-portfolio-10
+[debug] [2022-12-11T13:49:20.351Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mubarak-portfolio-10:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

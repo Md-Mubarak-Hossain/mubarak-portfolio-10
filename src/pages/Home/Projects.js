@@ -6,6 +6,7 @@ import js from '../../components/assets/js.jpg';
 import css from '../../components/assets/css.jpg';
 import htmlImg from '../../components/assets/html.jpg';
 import '../../layouts/Main.css';
+import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className='py-5'>
@@ -21,7 +22,7 @@ const Projects = () => {
                         <img src={mern} alt="" className='lg:h-32 lg:w-80' />
                         <p>These are full stack projects.</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-outline btn-primary">See Projects</button>
+                            <Link to='/mern'><button className="btn btn-outline btn-primary">See Projects</button></Link>
                         </div>
                     </div>
                 </div>
@@ -31,7 +32,7 @@ const Projects = () => {
                         <img src={react} alt="" className='lg:h-32 lg:w-80' />
                         <p>These are react.js base projects</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-outline btn-primary">See Projects</button>
+                            <Link to='/reac'><button className="btn btn-outline btn-primary">See Projects</button></Link>
                         </div>
                     </div>
                 </div>
@@ -41,7 +42,7 @@ const Projects = () => {
                         <img src={js} alt="" className='lg:h-32 lg:w-80' />
                         <p>These are raw JavaScript base projects</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-outline btn-primary">See Projects</button>
+                            <Link to='/js'><button className="btn btn-outline btn-primary">See Projects</button></Link>
                         </div>
                     </div>
                 </div>
@@ -51,7 +52,7 @@ const Projects = () => {
                         <img src={css} alt="" className='lg:h-32 lg:w-80' />
                         <p>These are raw css3, tailwindcss, bootstrap, materialUI base projects</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-outline btn-primary">See Projects</button>
+                            <Link to='/css'><button className="btn btn-outline btn-primary">See Projects</button></Link>
                         </div>
                     </div>
                 </div>
@@ -61,7 +62,7 @@ const Projects = () => {
                         <img src={htmlImg} alt="" className='lg:h-32 lg:w-80' />
                         <p>These are html5 base projects</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-outline btn-primary">See Projects</button>
+                            <Link to='/html'><button className="btn btn-outline btn-primary">See Projects</button></Link>
                         </div>
                     </div>
                 </div>

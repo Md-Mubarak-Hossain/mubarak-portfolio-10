@@ -34,8 +34,9 @@
 }
 
 .A4 {
-    width: 794px;
+    width: 790px;
     height: 942px;
+    margin: 2%;
 
 }
 
@@ -44,6 +45,7 @@
     margin-bottom: 0px;
     margin-right: 10px;
     margin-left: 10px;
+
 }
 
 .A4Content {

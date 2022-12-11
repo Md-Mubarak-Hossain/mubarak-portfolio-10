@@ -9,8 +9,8 @@ const ref = createRef();
 
 const Resume = () => {
     return (
-        <>
-            <div className='A4  flex flex-col place-items-center justify-center items-center' ref={ref}>
+        <div>
+            <div className='A4 flex flex-col place-items-center justify-center items-center' ref={ref}>
                 <div className="A4Margin py-5">
                     <div className='bg-white A4Content  text-black'>
                         <div className='A4Content text-justify'>
@@ -29,7 +29,7 @@ const Resume = () => {
                         </div>
                         <div className='A4Content text-justify'>
                             <h2 className='font-bold text-blue-900 resume A4Title'>Summary</h2>
-                            <p>
+                            <p className='px-1'>
                                 I am a curious, positive, enthusiastic and competent MERN Stack Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee. I will perform highly in this role.
                             </p>
                         </div>
@@ -48,7 +48,7 @@ const Resume = () => {
                         </div>
                         <h2 className='font-bold text-blue-900 resume A4Title'>Projects</h2>
                         <div className='A4Content text-justify grid grid-cols-2 gap-2'>
-                            <div className='p-2text-sm'>
+                            <div className='p-2 text-sm'>
                                 <h2 className='text-blue-900 '>MOBILE RESELL</h2>
                                 <div className='grid grid-cols-3'>
                                     <p>LIVE-SITE</p>
@@ -57,7 +57,7 @@ const Resume = () => {
                                 </div>
                                 <div>
                                     <h2 className='text-primary text-justify'>FEATURES</h2>
-                                    <ul>
+                                    <ul className='px-5'>
                                         <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                         </li>
                                         <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
@@ -76,7 +76,7 @@ const Resume = () => {
                                 </div>
                                 <div>
                                     <h2 className='text-primary text-justify'>FEATURES</h2>
-                                    <ul>
+                                    <ul className='px-5'>
                                         <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                         </li>
                                         <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
@@ -95,7 +95,7 @@ const Resume = () => {
                                 </div>
                                 <div>
                                     <h2 className='text-primary text-justify'>FEATURES</h2>
-                                    <ul>
+                                    <ul className='px-5'>
                                         <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                         </li>
                                         <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
@@ -114,7 +114,7 @@ const Resume = () => {
                                 </div>
                                 <div>
                                     <h2 className='text-primary text-justify'>FEATURES</h2>
-                                    <ul>
+                                    <ul className='px-5'>
                                         <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                         </li>
                                         <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
@@ -143,7 +143,7 @@ const Resume = () => {
                     }
                 </ReactToPdf >
             </div>
-        </>
+        </div >
     );
 };
 
