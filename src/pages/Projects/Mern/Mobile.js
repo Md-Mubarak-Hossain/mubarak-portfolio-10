@@ -26,18 +26,22 @@ import img22 from '../../../components/mern/mobile/img-22.png';
 import img23 from '../../../components/mern/mobile/img-23.png';
 import img24 from '../../../components/mern/mobile/img-24.png';
 import img25 from '../../../components/mern/mobile/img-25.png';
+import { FaServer, FaGithub } from 'react-icons/fa';
+import { VscLinkExternal } from 'react-icons/vsc';
+import { AiOutlineLaptop } from 'react-icons/ai';
+import '../../../layouts/Main.css';
 const Mobile = () => {
     return (
         <div className='w-full'>
             {/* .....mobile..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-                    <div className='w-full'>
-                        <img src={img1} className="rounded-lg shadow-2xl w-full" alt=''
+                    <div className='w-full h-full'>
+                        <img src={img1} className="rounded-lg shadow-2xl w-full h-full" alt=''
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-2xl lg:text-5xl font-bold">MOBILE RESELL</h1>
+                        <h1 className="text-2xl lg:text-5xl font-bold"><span className='underlined'>MOBILE RESELL</span></h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -65,16 +69,19 @@ const Mobile = () => {
                             </div>
                         </div>
                         <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
+                            <div className='w-full'>
+                                <span className='resume mb-5'> <h2 className='text-primary  flex place-items-center w-full'>Visite <FaGithub className='mx-2'></FaGithub>repository</h2></span>
+                                <ul className='text-start flex justify-center place-items-center w-full'>
+                                    <li className='px-2 flex justify-center place-items-center'>
+                                        <p><AiOutlineLaptop className='mx-1'>
+                                        </AiOutlineLaptop></p> <p>ClientSite</p><VscLinkExternal className='mx-1'></VscLinkExternal></li>
+                                    <li className='flex justify-center place-items-center'>
+                                        <p> <FaServer className='mx-1'>
+                                        </FaServer></p><p>server site</p><VscLinkExternal className='mx-1'></VscLinkExternal></li>
                                 </ul>
                             </div>
                         </div>
-                        <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project<VscLinkExternal className='mx-1'></VscLinkExternal></button></ExternalLink>
                     </div>
                 </div>
             </div>
@@ -97,7 +104,7 @@ const Mobile = () => {
             <div>
                 <img src={img6} alt="" />
             </div>
-            <div className='w-full flex flex-col justify-center items-center place-items-center w-full text-2xl lg:text-3xl text-white bg-black font-bold text-start h-16 lg:h-24'>
+            <div className='w-full flex flex-col justify-center items-center place-items-center text-2xl lg:text-3xl text-white bg-black font-bold text-start h-16 lg:h-24'>
                 <h2 className='w-full'>Admin Dashboard</h2>
             </div>
             <div>
@@ -160,7 +167,7 @@ const Mobile = () => {
             <div>
                 <img src={img21} alt="" />
             </div>
-        </div>
+        </div >
     );
 };
 
