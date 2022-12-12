@@ -10,8 +10,8 @@ const Main = () => {
     const menu = <>
         <label className="swap swap-rotate">
             <input type="checkbox" />
-            <BsSun onClick={() => setThem('night')} className="swap-on fill-current w-5 h-5"></BsSun>
-            <BsMoon onClick={() => setThem('light')} className="swap-off fill-current w-5 h-5"></BsMoon>
+            <BsSun onClick={() => setThem('light')} className="swap-on fill-current w-5 h-5"></BsSun>
+            <BsMoon onClick={() => setThem('night')} className="swap-off fill-current w-5 h-5"></BsMoon>
         </label>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
