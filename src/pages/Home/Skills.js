@@ -13,11 +13,6 @@ const Skills = () => {
             </div>
             <ul className="menu grid grid-cols-1 lg:grid-cols-2 bg-base-100 w-full lg:w-11/12 mx-auto">
                 <li className='p-2 w-full'>
-                    <div>
-                        <img src={siteImg} alt="" className='rounded w-full' />
-                    </div>
-                </li>
-                <li className='p-2 w-full'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 w-full gap-2'>
                         <div className='w-full'>
                             <IoLogoJavascript className="w-32 h-32 text-primary font-extrabold"></IoLogoJavascript>

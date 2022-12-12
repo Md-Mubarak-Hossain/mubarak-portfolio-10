@@ -10,12 +10,13 @@ import Skills from '../pages/Home/Skills';
 import CSS from '../pages/Projects/CSS';
 import Html from '../pages/Projects/Html';
 import JavaScript from '../pages/Projects/JavaScript';
+import Best from '../pages/Projects/Js/Best';
+import News from '../pages/Projects/Js/News';
 import Mern from '../pages/Projects/Mern';
 import Hotel from '../pages/Projects/Mern/Hotel';
 import Law from '../pages/Projects/Mern/Law';
 import Mobile from '../pages/Projects/Mern/Mobile';
 import School from '../pages/Projects/Mern/School';
-// import MernDetails from '../pages/Projects/MernDetails';
 import Reac from '../pages/Projects/Reac';
 import Challenge from '../pages/Projects/React/Challenge';
 import Health from '../pages/Projects/React/Health';
@@ -50,6 +51,14 @@ const Route = () => {
                 {
                     path: '/js',
                     element: <JavaScript></JavaScript>
+                },
+                {
+                    path: '/news',
+                    element: <News></News>
+                },
+                {
+                    path: '/best',
+                    element: <Best></Best>
                 },
                 {
                     path: '/mern',

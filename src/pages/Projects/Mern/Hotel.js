@@ -28,7 +28,7 @@ const Hotel = () => {
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-2xl lg:text-5xl font-bold"><span className='underlined'>HOTEL NIGHT</span></h1>
+                        <h1 className="text-2xl lg: text-xl lg:text-5xl font-bold"><span className='underlined'>HOTEL NIGHT</span></h1>
                         <div className="py-6">
                             <div className='w-full'>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>

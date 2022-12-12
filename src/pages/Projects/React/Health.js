@@ -6,7 +6,7 @@ import img2 from '../../../components/react/health/img-2.png';
 import img3 from '../../../components/react/health/img-3.png';
 import img4 from '../../../components/react/health/img-4.png';
 import img5 from '../../../components/react/health/img-5.png';
-import { FaServer, FaGithub } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { VscLinkExternal } from 'react-icons/vsc';
 import { AiOutlineLaptop } from 'react-icons/ai';
 import '../../../layouts/Main.css';
@@ -21,7 +21,7 @@ const Health = () => {
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-2xl lg:text-5xl font-bold"><span className='underlined'>Health Activities</span></h1>
+                        <h1 className="text-2xl lg: text-xl lg:text-5xl font-bold"><span className='underlined'>Health Activities</span></h1>
                         <div className="py-6">
                             <div className='w-full'>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>

@@ -14,8 +14,8 @@ const Html = () => {
                 <div className="hero-content text-center text-neutral-content" >
                     <div className="max-w-md">
                         <Avatar></Avatar>
-                        <h1 className="mb-5 text-5xl font-bold">WELCOME TO</h1>
-                        <h1 className="mb-5 text-5xl font-bold">HTML5 WEB DEVELOP PROJECT</h1>
+                        <h1 className="mb-5  text-xl lg:text-5xl font-bold">WELCOME TO</h1>
+                        <h1 className="mb-5  text-xl lg:text-5xl font-bold">HTML5 WEB DEVELOP PROJECT</h1>
                         <p className="mb-5">I am a curious, positive, enthusiastic and competent MERN Stack Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee. I will perform highly in this role.</p>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const Html = () => {
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-5xl font-bold">MOBILE RESELL</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">MOBILE RESELL</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -77,7 +77,7 @@ const Html = () => {
                         <img src={hotel} className="rounded-lg shadow-2xl w-full" alt='' />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-5xl font-bold">HOTEL AT NIGHT</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">HOTEL AT NIGHT</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -125,7 +125,7 @@ const Html = () => {
                         <img src={programmingSchool} className="rounded-lg shadow-2xl w-full" alt='' />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-5xl font-bold">Programming School</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">Programming School</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -174,7 +174,7 @@ const Html = () => {
                         <img src={lawer} className="rounded-lg shadow-2xl w-full" alt='' />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-5xl font-bold">LAWER GHHOR</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">LAWER GHHOR</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>

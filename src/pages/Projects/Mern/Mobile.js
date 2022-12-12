@@ -41,7 +41,7 @@ const Mobile = () => {
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-2xl lg:text-5xl font-bold"><span className='underlined'>MOBILE RESELL</span></h1>
+                        <h1 className="text-2xl lg: text-xl lg:text-5xl font-bold"><span className='underlined'>MOBILE RESELL</span></h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>

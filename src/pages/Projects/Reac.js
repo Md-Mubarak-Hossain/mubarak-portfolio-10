@@ -1,9 +1,9 @@
 import React from 'react';
 import { ExternalLink } from 'react-external-link';
 import react from '../../components/projectsImage/react.webp';
-import mobile from '../../components/projectsImage/mobile.jpg';
-import hotel from '../../components/projectsImage/hotel.webp';
-import lawer from '../../components/projectsImage/lawer.webp';
+import challenge from '../../components/react/challenge/img-0.jpg';
+import health from '../../components/react/health/img-0.jpg';
+
 import programmingSchool from '../../components/projectsImage/programmingSchool.webp';
 import Avatar from '../shared/CommonImage/Avatar';
 import { Link } from 'react-router-dom';
@@ -15,21 +15,21 @@ const Reac = () => {
                 <div className="hero-content text-center text-neutral-content" >
                     <div className="max-w-md">
                         <Avatar></Avatar>
-                        <h1 className="mb-5 text-5xl font-bold">WELCOME TO</h1>
-                        <h1 className="mb-5 text-5xl font-bold">REACT.JS WEB DEVELOP PROJECT</h1>
+                        <h1 className="mb-5  text-xl lg:text-5xl font-bold">WELCOME TO</h1>
+                        <h1 className="mb-5  text-xl lg:text-5xl font-bold">REACT.JS WEB DEVELOP PROJECT</h1>
                         <p className="mb-5">I am a curious, positive, enthusiastic and competent MERN Stack Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee. I will perform highly in this role.</p>
                     </div>
                 </div>
             </div>
-            {/* .....mobile..... */}
+            {/* ...challenge... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
                     <div className='w-full'>
-                        <img src={mobile} className="rounded-lg shadow-2xl w-full" alt=''
+                        <img src={challenge} className="rounded-lg shadow-2xl w-full" alt=''
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-5xl font-bold">Challenge Yourself</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">Challenge Yourself</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -66,19 +66,18 @@ const Reac = () => {
                                 </ul>
                             </div>
                         </div>
-                        <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <Link to='/challenge'><button className="btn btn-primary">See Details</button></Link>
                     </div>
-
                 </div>
             </div>
             {/* .....health..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
                     <div className='w-full'>
-                        <img src={hotel} className="rounded-lg shadow-2xl w-full" alt='' />
+                        <img src={health} className="rounded-lg shadow-2xl w-full" alt='' />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-5xl font-bold">Health Activities</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">Health Activities</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
