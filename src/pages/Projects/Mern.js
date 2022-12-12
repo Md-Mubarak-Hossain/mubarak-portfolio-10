@@ -113,7 +113,7 @@ const Mern = () => {
                                 </ul>
                             </div>
                         </div>
-                        <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <Link to='/hotel'><button className="btn btn-primary">See Details</button></Link>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@ const Mern = () => {
                         <img src={programmingSchool} className="rounded-lg shadow-2xl w-full" alt='' />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-5xl font-bold">Programming School</h1>
+                        <h1 className="text-5xl font-bold">PROGRAMMING SCHOOL</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -161,7 +161,7 @@ const Mern = () => {
                                 </ul>
                             </div>
                         </div>
-                        <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <Link to='/schol'><button className="btn btn-primary">See Details</button></Link>
                     </div>
 
                 </div>

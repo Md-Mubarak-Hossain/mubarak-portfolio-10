@@ -11,7 +11,9 @@ import CSS from '../pages/Projects/CSS';
 import Html from '../pages/Projects/Html';
 import JavaScript from '../pages/Projects/JavaScript';
 import Mern from '../pages/Projects/Mern';
+import Hotel from '../pages/Projects/Mern/Hotel';
 import Mobile from '../pages/Projects/Mern/Mobile';
+import School from '../pages/Projects/Mern/School';
 // import MernDetails from '../pages/Projects/MernDetails';
 import Reac from '../pages/Projects/Reac';
 import Resum from '../pages/Resume/Resum';
@@ -53,6 +55,14 @@ const Route = () => {
                 {
                     path: '/mobile',
                     element: <Mobile></Mobile>
+                },
+                {
+                    path: '/hotel',
+                    element: <Hotel></Hotel>
+                },
+                {
+                    path: '/schol',
+                    element: <School></School>
                 },
                 // {
                 //     path: '/mernd',
