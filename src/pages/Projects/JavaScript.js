@@ -5,6 +5,7 @@ import mobile from '../../components/projectsImage/mobile.jpg';
 import hotel from '../../components/projectsImage/hotel.webp';
 import lawer from '../../components/projectsImage/lawer.webp';
 import programmingSchool from '../../components/projectsImage/programmingSchool.webp';
+import Avatar from '../shared/CommonImage/Avatar';
 const JavaScript = () => {
     return (
         <div className='w-full'>
@@ -12,6 +13,7 @@ const JavaScript = () => {
                 <div className="hero-overlay bg-opacity-90"></div>
                 <div className="hero-content text-center text-neutral-content" >
                     <div className="max-w-md">
+                        <Avatar></Avatar>
                         <h1 className="mb-5 text-5xl font-bold">WELCOME TO</h1>
                         <h1 className="mb-5 text-5xl font-bold">JavaScript WEB DEVELOP PROJECT</h1>
                         <p className="mb-5">I am a curious, positive, enthusiastic and competent MERN Stack Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee. I will perform highly in this role.</p>

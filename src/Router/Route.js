@@ -12,10 +12,13 @@ import Html from '../pages/Projects/Html';
 import JavaScript from '../pages/Projects/JavaScript';
 import Mern from '../pages/Projects/Mern';
 import Hotel from '../pages/Projects/Mern/Hotel';
+import Law from '../pages/Projects/Mern/Law';
 import Mobile from '../pages/Projects/Mern/Mobile';
 import School from '../pages/Projects/Mern/School';
 // import MernDetails from '../pages/Projects/MernDetails';
 import Reac from '../pages/Projects/Reac';
+import Challenge from '../pages/Projects/React/Challenge';
+import Health from '../pages/Projects/React/Health';
 import Resum from '../pages/Resume/Resum';
 
 const Route = () => {
@@ -64,13 +67,21 @@ const Route = () => {
                     path: '/schol',
                     element: <School></School>
                 },
-                // {
-                //     path: '/mernd',
-                //     element: <MernDetails></MernDetails>
-                // },
+                {
+                    path: '/law',
+                    element: <Law></Law>
+                },
                 {
                     path: '/reac',
                     element: <Reac></Reac>
+                },
+                {
+                    path: '/challenge',
+                    element: <Challenge></Challenge>
+                },
+                {
+                    path: '/health',
+                    element: <Health></Health>
                 },
                 {
                     path: '/resume',

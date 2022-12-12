@@ -6,6 +6,7 @@ import hotel from '../../components/projectsImage/hotel.webp';
 import lawer from '../../components/projectsImage/lawer.webp';
 import programmingSchool from '../../components/projectsImage/programmingSchool.webp';
 import { Link } from 'react-router-dom';
+import Avatar from '../shared/CommonImage/Avatar';
 const Mern = () => {
     return (
         <div className='w-full'>
@@ -13,6 +14,7 @@ const Mern = () => {
                 <div className="hero-overlay bg-opacity-90"></div>
                 <div className="hero-content text-center text-neutral-content" >
                     <div className="max-w-md">
+                        <Avatar></Avatar>
                         <h1 className="mb-5 text-5xl font-bold">WELCOME TO</h1>
                         <h1 className="mb-5 text-5xl font-bold">MERN STACK WEB PROJECT</h1>
                         <p className="mb-5">I am a curious, positive, enthusiastic and competent MERN Stack Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee. I will perform highly in this role.</p>
@@ -210,7 +212,7 @@ const Mern = () => {
                                 </ul>
                             </div>
                         </div>
-                        <ExternalLink href='https://lawyer-ghhor-client-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <Link to='/law'><button className="btn btn-primary">See live Project</button></Link>
                     </div>
                 </div>
             </div>
