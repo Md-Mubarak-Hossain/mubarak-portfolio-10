@@ -8,6 +8,8 @@ import Home from '../pages/Home/Home';
 import Projects from '../pages/Home/Projects';
 import Skills from '../pages/Home/Skills';
 import CSS from '../pages/Projects/CSS';
+import Penguin from '../pages/Projects/CSS/Penguin';
+import Panda from '../pages/Projects/CSS/Panda';
 import Html from '../pages/Projects/Html';
 import JavaScript from '../pages/Projects/JavaScript';
 import Best from '../pages/Projects/Js/Best';
@@ -21,6 +23,7 @@ import Reac from '../pages/Projects/Reac';
 import Challenge from '../pages/Projects/React/Challenge';
 import Health from '../pages/Projects/React/Health';
 import Resum from '../pages/Resume/Resum';
+import MoreProjects from '../pages/Home/MoreProjects';
 
 const Route = () => {
     const router = createBrowserRouter([
@@ -41,12 +44,24 @@ const Route = () => {
                     element: <Projects></Projects>
                 },
                 {
+                    path: '/MoreProjects',
+                    element: <MoreProjects></MoreProjects>
+                },
+                {
                     path: '/html',
                     element: <Html></Html>
                 },
                 {
                     path: '/css',
                     element: <CSS></CSS>
+                },
+                {
+                    path: '/penguin',
+                    element: <Penguin></Penguin>
+                },
+                {
+                    path: '/panda',
+                    element: <Panda></Panda>
                 },
                 {
                     path: '/js',

@@ -14,7 +14,7 @@ const Projects = () => {
                 <p className='text-3xl font-bold'>Projects</p>
                 <p><AiOutlineFundProjectionScreen className='w-32 h-32 text-primary text-3xl font-extrabold'></AiOutlineFundProjectionScreen></p>
             </div>
-            <h2 className='font-bold text-4xl text-primary underlined'>The Different Categories Projects</h2>
+            <h2 className='font-bold text-4xl text-primary underlined'>Different Categories Projects</h2>
             <div className='p-5 grid grid-cols-1 gap-1 lg:grid-cols-5'>
                 <div className="card bg-base-100">
                     <div className="card-body flex flex-col place-items-center">
@@ -67,7 +67,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            <Link to='/MoreProjects'><button className='btn btn-link link-active'>See more projects</button></Link>
+        </div >
     );
 };
 

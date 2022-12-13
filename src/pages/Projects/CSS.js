@@ -1,10 +1,8 @@
 import React from 'react';
-import { ExternalLink } from 'react-external-link';
 import css from '../../components/assets/css.jpg';
-import mobile from '../../components/projectsImage/mobile.jpg';
-import hotel from '../../components/projectsImage/hotel.webp';
-import lawer from '../../components/projectsImage/lawer.webp';
-import programmingSchool from '../../components/projectsImage/programmingSchool.webp';
+import penguin from '../../components/css/penguin/img-0.png';
+import panda from '../../components/css/panda/img-0.jpg';
+import { Link } from 'react-router-dom';
 import Avatar from '../shared/CommonImage/Avatar';
 const CSS = () => {
     return (
@@ -20,15 +18,15 @@ const CSS = () => {
                     </div>
                 </div>
             </div>
-            {/* .....mobile..... */}
+            {/* .....penguin..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
                     <div className='w-full'>
-                        <img src={mobile} className="rounded-lg shadow-2xl w-full" alt=''
+                        <img src={penguin} className="rounded-lg shadow-2xl w-full" alt=''
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className=" text-xl lg:text-5xl font-bold">MOBILE RESELL</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">PENGUIN FASHION</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -55,20 +53,18 @@ const CSS = () => {
                                 </ul>
                             </div>
                         </div>
-
-                        <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <Link to='/penguin'><button className="btn btn-primary">See Details</button></Link>
                     </div>
-
                 </div>
             </div>
-            {/* .....hotel..... */}
+            {/* .....panda..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
                     <div className='w-full'>
-                        <img src={hotel} className="rounded-lg shadow-2xl w-full" alt='' />
+                        <img src={panda} className="rounded-lg shadow-2xl w-full" alt='' />
                     </div>
                     <div className='w-full'>
-                        <h1 className=" text-xl lg:text-5xl font-bold">HOTEL AT NIGHT</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">PANDA E-COMMERCE</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -95,91 +91,11 @@ const CSS = () => {
                                 </ul>
                             </div>
                         </div>
-
-                        <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <Link to='/panda'><button className="btn btn-primary">See Details</button></Link>
                     </div>
                 </div>
             </div>
-            {/* .....programmingSchool..... */}
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-                    <div className='w-full'>
-                        <img src={programmingSchool} className="rounded-lg shadow-2xl w-full" alt='' />
-                    </div>
-                    <div className='w-full'>
-                        <h1 className=" text-xl lg:text-5xl font-bold">Programming School</h1>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
-                                <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
-                                <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
-                    </div>
-
-                </div>
-            </div>
-            {/* .....lawer ghhor..... */}
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-                    <div className='w-full'>
-                        <img src={lawer} className="rounded-lg shadow-2xl w-full" alt='' />
-                    </div>
-                    <div className='w-full'>
-                        <h1 className=" text-xl lg:text-5xl font-bold">LAWER GHHOR</h1>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
-                                <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
-                                <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <ExternalLink href='https://lawyer-ghhor-client-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div >
     );
 };
 
