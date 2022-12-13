@@ -56,16 +56,7 @@ const Mern = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <Link to='/mobile'><button className="btn btn-primary">See Details</button></Link>
                     </div>
 
@@ -105,16 +96,7 @@ const Mern = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <Link to='/hotel'><button className="btn btn-primary">See Details</button></Link>
                     </div>
                 </div>
@@ -153,16 +135,7 @@ const Mern = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <Link to='/schol'><button className="btn btn-primary">See Details</button></Link>
                     </div>
 
@@ -199,16 +172,6 @@ const Mern = () => {
                                     </li>
                                     <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
                                     </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
                                 </ul>
                             </div>
                         </div>

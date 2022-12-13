@@ -1,16 +1,16 @@
 import React from 'react';
 import { ExternalLink } from 'react-external-link';
-import img0 from '../../../components/js/best/img-0.jpg';
-import img1 from '../../../components/react/challenge/img-1.png';
-import img2 from '../../../components/react/challenge/img-2.png';
-import img3 from '../../../components/react/challenge/img-3.png';
-import img4 from '../../../components/react/challenge/img-4.png';
-import img5 from '../../../components/react/challenge/img-5.png';
-import img6 from '../../../components/react/challenge/img-6.png';
-import img7 from '../../../components/react/challenge/img-7.png';
-import img8 from '../../../components/react/challenge/img-8.png';
-import img9 from '../../../components/react/challenge/img-9.png';
-import img10 from '../../../components/react/challenge/img-10.png';
+import img0 from '../../../components/js/best/img-0.png';
+import img1 from '../../../components/js/best/img-1.png';
+import img2 from '../../../components/js/best/img-2.png';
+import img3 from '../../../components/js/best/img-3.png';
+import img4 from '../../../components/js/best/img-4.png';
+import img5 from '../../../components/js/best/img-5.png';
+import img6 from '../../../components/js/best/img-6.png';
+import img7 from '../../../components/js/best/img-7.png';
+import img8 from '../../../components/js/best/img-8.png';
+import img9 from '../../../components/js/best/img-9.png';
+import img10 from '../../../components/js/best/img-10.png';
 import { FaGithub } from 'react-icons/fa';
 import { VscLinkExternal } from 'react-icons/vsc';
 import { AiOutlineLaptop } from 'react-icons/ai';
@@ -26,7 +26,7 @@ const Best = () => {
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-2xl lg: text-xl lg:text-5xl font-bold"><span className='underlined'>SELECT BEST FIVE</span></h1>
+                        <h1 className="text-xl lg:text-3xl font-bold"><span className='underlined'>SELECT BEST FIVE</span></h1>
                         <div className="py-6">
                             <div className='w-full'>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -57,13 +57,13 @@ const Best = () => {
                             <div className='w-full'>
                                 <span className='resume mb-5'> <h2 className='text-primary  flex place-items-center w-full mb-2'>Visite <FaGithub className='mx-2'></FaGithub>repository</h2></span>
                                 <ul className='text-start flex justify-center place-items-center w-full'>
-                                    <ExternalLink href='https://github.com/Md-Mubarak-Hossain/daily-news' className='px-2 flex justify-center place-items-center '>
+                                    <ExternalLink href='https://github.com/Md-Mubarak-Hossain/select-your-best-five-player' className='px-2 flex justify-center place-items-center '>
                                         <p><AiOutlineLaptop className='mx-1'>
                                         </AiOutlineLaptop></p> <p>ClientSite</p><VscLinkExternal className='mx-1'></VscLinkExternal></ExternalLink>
                                 </ul>
                             </div>
                         </div>
-                        <ExternalLink href='https://comfy-fenglisu-a9e138.netlify.app/'><button className="btn btn-outline btn-primary">See live Project<VscLinkExternal className='mx-1'></VscLinkExternal></button></ExternalLink>
+                        <ExternalLink href='https://md-mubarak-hossain.github.io/select-your-best-five-player/'><button className="btn btn-outline btn-primary">See live Project<VscLinkExternal className='mx-1'></VscLinkExternal></button></ExternalLink>
                     </div>
                 </div>
             </div>

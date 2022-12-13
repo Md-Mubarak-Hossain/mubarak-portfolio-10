@@ -1,16 +1,18 @@
 import React from 'react';
 import { ExternalLink } from 'react-external-link';
 import img0 from '../../../components/js/news/img-0.webp';
-import img1 from '../../../components/react/challenge/img-1.png';
-import img2 from '../../../components/react/challenge/img-2.png';
-import img3 from '../../../components/react/challenge/img-3.png';
-import img4 from '../../../components/react/challenge/img-4.png';
-import img5 from '../../../components/react/challenge/img-5.png';
-import img6 from '../../../components/react/challenge/img-6.png';
-import img7 from '../../../components/react/challenge/img-7.png';
-import img8 from '../../../components/react/challenge/img-8.png';
-import img9 from '../../../components/react/challenge/img-9.png';
-import img10 from '../../../components/react/challenge/img-10.png';
+import img1 from '../../../components/js/news/img-1.png';
+import img2 from '../../../components/js/news/img-2.png';
+import img3 from '../../../components/js/news/img-3.png';
+import img4 from '../../../components/js/news/img-4.png';
+import img5 from '../../../components/js/news/img-5.png';
+import img6 from '../../../components/js/news/img-6.png';
+import img7 from '../../../components/js/news/img-7.png';
+import img8 from '../../../components/js/news/img-8.png';
+import img9 from '../../../components/js/news/img-9.png';
+import img10 from '../../../components/js/news/img-10.png';
+import img11 from '../../../components/js/news/img-11.png';
+import img12 from '../../../components/js/news/img-12.png';
 import { FaGithub } from 'react-icons/fa';
 import { VscLinkExternal } from 'react-icons/vsc';
 import { AiOutlineLaptop } from 'react-icons/ai';
@@ -18,7 +20,7 @@ import '../../../layouts/Main.css';
 const News = () => {
     return (
         <div className='w-full'>
-            {/* .....health..... */}
+            {/* .....select..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
                     <div className='w-full h-full'>
@@ -26,7 +28,7 @@ const News = () => {
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-2xl lg: text-xl lg:text-5xl font-bold"><span className='underlined'>DAILY NEWS</span></h1>
+                        <h1 className="text-xl lg:text-5xl font-bold"><span className='underlined'>DAILY NEWS</span></h1>
                         <div className="py-6">
                             <div className='w-full'>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -137,6 +139,12 @@ const News = () => {
             </div>
             <div className='w-full'>
                 <img src={img10} alt="" className='w-full' />
+            </div>
+            <div className='w-full'>
+                <img src={img11} alt="" className='w-full' />
+            </div>
+            <div className='w-full'>
+                <img src={img12} alt="" className='w-full' />
             </div>
         </div>
     );

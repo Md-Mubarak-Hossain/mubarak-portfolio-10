@@ -1,5 +1,5 @@
 import React from 'react';
-import js from '../../components/assets/js.jpg';
+import js from '../../components/assets/js';
 import news from '../../components/js/news/img-0.webp';
 import best from '../../components/js/best/img-0.jpg';
 import Avatar from '../shared/CommonImage/Avatar';
@@ -53,16 +53,7 @@ const JavaScript = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <Link to='/news'><button className="btn btn-primary">See Details</button></Link>
                     </div>
 
@@ -102,16 +93,7 @@ const JavaScript = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <Link to='/best'><button className="btn btn-primary">See Details</button></Link>
                     </div>
                 </div>

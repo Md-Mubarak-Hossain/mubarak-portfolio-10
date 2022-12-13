@@ -55,16 +55,7 @@ const CSS = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
 
@@ -104,16 +95,7 @@ const CSS = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
                 </div>
@@ -152,16 +134,7 @@ const CSS = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
 
@@ -201,16 +174,7 @@ const CSS = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Visite repository</h2>
-                                <ul className='text-start grid grid-cols-3'>
-                                    <li>ClientSite</li>
-                                    <li>server site</li>
-                                    <li>live site</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <ExternalLink href='https://lawyer-ghhor-client-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
                     </div>
                 </div>
