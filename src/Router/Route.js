@@ -22,7 +22,6 @@ import School from '../pages/Projects/Mern/School';
 import Reac from '../pages/Projects/Reac';
 import Challenge from '../pages/Projects/React/Challenge';
 import Health from '../pages/Projects/React/Health';
-import Resum from '../pages/Resume/Resum';
 import MoreProjects from '../pages/Home/MoreProjects';
 import Donation from '../pages/Projects/Html/Donation';
 import WorldCup from '../pages/Projects/Html/WorldCup';
@@ -116,10 +115,6 @@ const Route = () => {
                 {
                     path: '/health',
                     element: <Health></Health>
-                },
-                {
-                    path: '/resume',
-                    element: <Resum></Resum>
                 },
                 {
                     path: '/about',
