@@ -4,6 +4,7 @@ import ReactToPdf from 'react-to-pdf';
 import { BsDownload, BsJournalCheck } from 'react-icons/bs';
 import { ImCancelCircle } from 'react-icons/im';
 import '../../layouts/Main.css';
+import { ExternalLink } from 'react-external-link';
 
 
 const ref = createRef();

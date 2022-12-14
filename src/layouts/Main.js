@@ -4,9 +4,10 @@ import Footer from '../pages/shared/footer/Footer';
 import myImg from '../components/assets/halfImg-2.png';
 import { BsJournalCheck, BsSun, BsMoon } from 'react-icons/bs';
 import './Main.css';
+import { ExternalLink } from 'react-external-link';
 
 const Main = () => {
-    const [them, setThem] = useState('night')
+    const [them, setThem] = useState('')
     const menu = <>
         <label className="swap swap-rotate">
             <input type="checkbox" />
@@ -15,7 +16,9 @@ const Main = () => {
         </label>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
-        <li><Link to='/resume'><label className="btn btn-outline btn-primary btn-xs"><BsJournalCheck className='font-bold text-warning'></BsJournalCheck> Resume</label></Link></li>
+
+        <li><ExternalLink href='https://drive.google.com/file/d/1HWiUoJXFvkxnT6kiVffgx09P7qJNUgWO/view'><label className="btn btn-outline btn-primary btn-xs"><BsJournalCheck className='font-bold text-warning'></BsJournalCheck>CV</label></ExternalLink></li>
+        <li><ExternalLink href='https://drive.google.com/file/d/1l5KtH3PlLta251X3SVlnafU_J_lnsRsb/view?usp=sharing'><label className="btn btn-outline btn-primary btn-xs"><BsJournalCheck className='font-bold text-warning'></BsJournalCheck> Resume</label></ExternalLink></li>
         <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/projects'>Projects</Link></li>
         <li><Link to='/skills'>Skills</Link></li>
