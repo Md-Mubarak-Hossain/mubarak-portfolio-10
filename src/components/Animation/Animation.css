@@ -1,0 +1,92 @@
+/* .bgContainer {
+    position: relative;
+    animation-name: bgColorChange;
+    animation-duration: 30s;
+    animation-iteration-count: 20;
+}
+
+*/
+
+
+@keyframes bgColorChange {
+    0% {
+        background-color: #000046;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: #EF32D9#89FFFD;
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: rgb(182, 251, 133);
+        left: 0px;
+        top: 0px;
+    }
+
+    75% {
+        background-color: rgb(229, 243, 107);
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: rgb(247, 29, 207);
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.headerHeading {
+    color: white;
+    position: relative;
+    animation-name: headingColorChange;
+    animation-duration: 8s;
+    animation-iteration-count: 8;
+}
+
+
+@keyframes headingColorChange {
+    0% {
+        color: rgb(45, 2, 237);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    25% {
+        color: rgb(68, 32, 231);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    50% {
+        color: rgb(140, 116, 248);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    75% {
+        color: rgb(89, 72, 165);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    100% {
+        color: rgb(215, 209, 239);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}

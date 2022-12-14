@@ -3,7 +3,7 @@ import Avatar from '../shared/CommonImage/Avatar';
 import Resume from './Resume';
 const Profile = () => {
     return (
-        <div className="hero min-h-screen">
+        <div className="hero min-h-screen bgContainer">
             <div className="hero-overlay"></div>
             <div className="hero-content text-center flex flex-col justify-center items-center place-items-center">
                 <div className="lg:w-1/2">

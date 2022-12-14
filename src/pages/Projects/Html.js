@@ -1,11 +1,10 @@
 import React from 'react';
 import { ExternalLink } from 'react-external-link';
 import html from '../../components/assets/html.jpg';
-import mobile from '../../components/projectsImage/mobile.jpg';
-import hotel from '../../components/projectsImage/hotel.webp';
-import lawer from '../../components/projectsImage/lawer.webp';
-import programmingSchool from '../../components/projectsImage/programmingSchool.webp';
+import donation from '../../components/Html/Donation/img-0.png';
+import cup from '../../components/Html/cup/img-0.png';
 import Avatar from '../shared/CommonImage/Avatar';
+import { Link } from 'react-router-dom';
 const Html = () => {
     return (
         <div className='w-full'>
@@ -14,21 +13,21 @@ const Html = () => {
                 <div className="hero-content text-center text-neutral-content" >
                     <div className="max-w-md">
                         <Avatar></Avatar>
-                        <h1 className="mb-5  text-xl lg:text-5xl font-bold">WELCOME TO</h1>
-                        <h1 className="mb-5  text-xl lg:text-5xl font-bold">HTML5 WEB DEVELOP PROJECT</h1>
-                        <p className="mb-5">I am a curious, positive, enthusiastic and competent MERN Stack Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee. I will perform highly in this role.</p>
+                        <h1 className="mb-5  text-xl lg:text-3xl font-bold">WELCOME TO</h1>
+                        <h1 className="mb-5  text-xl lg:text-3xl font-bold">HTML5 <span className="text-primary">Web Develop Project</span></h1>
+
                     </div>
                 </div>
             </div>
-            {/* .....mobile..... */}
+            {/* .....donation..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
                     <div className='w-full'>
-                        <img src={mobile} className="rounded-lg shadow-2xl w-full" alt=''
+                        <img src={donation} className="rounded-lg shadow-2xl w-full" alt=''
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className=" text-xl lg:text-5xl font-bold">MOBILE RESELL</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">DONATION</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -55,20 +54,19 @@ const Html = () => {
                                 </ul>
                             </div>
                         </div>
-
-                        <ExternalLink href='https://mobile-resell-app-100.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <Link to='/donation'><button className="btn btn-primary">See Details</button></Link>
                     </div>
 
                 </div>
             </div>
-            {/* .....hotel..... */}
+            {/* .....worldCup..... */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
                     <div className='w-full'>
-                        <img src={hotel} className="rounded-lg shadow-2xl w-full" alt='' />
+                        <img src={cup} className="rounded-lg shadow-2xl w-full" alt='' />
                     </div>
                     <div className='w-full'>
-                        <h1 className=" text-xl lg:text-5xl font-bold">HOTEL AT NIGHT</h1>
+                        <h1 className=" text-xl lg:text-5xl font-bold">World Cup</h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
@@ -95,87 +93,7 @@ const Html = () => {
                                 </ul>
                             </div>
                         </div>
-
-                        <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
-                    </div>
-                </div>
-            </div>
-            {/* .....programmingSchool..... */}
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-                    <div className='w-full'>
-                        <img src={programmingSchool} className="rounded-lg shadow-2xl w-full" alt='' />
-                    </div>
-                    <div className='w-full'>
-                        <h1 className=" text-xl lg:text-5xl font-bold">Programming School</h1>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
-                                <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
-                                <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <ExternalLink href='https://hotel-night-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
-                    </div>
-
-                </div>
-            </div>
-            {/* .....lawer ghhor..... */}
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
-                    <div className='w-full'>
-                        <img src={lawer} className="rounded-lg shadow-2xl w-full" alt='' />
-                    </div>
-                    <div className='w-full'>
-                        <h1 className=" text-xl lg:text-5xl font-bold">LAWER GHHOR</h1>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
-                                <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="py-6">
-                            <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
-                                <ul className='text-start pl-5'>
-                                    <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                    <li className='list-disc'>Server site deploy in vercel and client site deploy in firebase
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <ExternalLink href='https://lawyer-ghhor-client-app-10.web.app/'><button className="btn btn-primary">See live Project</button></ExternalLink>
+                        <Link to='/cup'><button className="btn btn-primary">See Details</button></Link>
                     </div>
                 </div>
             </div>

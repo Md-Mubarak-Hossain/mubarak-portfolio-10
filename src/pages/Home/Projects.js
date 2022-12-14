@@ -6,18 +6,19 @@ import js from '../../components/assets/js.jpg';
 import css from '../../components/assets/css.jpg';
 import htmlImg from '../../components/assets/html.jpg';
 import '../../layouts/Main.css';
+import '../../components/Animation/Animation.css';
 import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className='py-5'>
-            <div className='flex flex-col place-items-center'>
+            <div className='flex flex-col place-items-center '>
                 <p className='text-3xl font-bold'>Projects</p>
                 <p><AiOutlineFundProjectionScreen className='w-32 h-32 text-primary text-3xl font-extrabold'></AiOutlineFundProjectionScreen></p>
             </div>
             <h2 className='font-bold text-4xl text-primary underlined'>Different Categories Projects</h2>
             <div className='p-5 grid grid-cols-1 gap-1 lg:grid-cols-5'>
                 <div className="card bg-base-100">
-                    <div className="card-body flex flex-col place-items-center">
+                    <div className="card-body flex flex-col place-items-center ">
                         <h2 className="card-title">MERN Stack</h2>
                         <img src={mern} alt="" className='lg:h-20 lg:w-64' />
                         <p>These are full stack projects.</p>

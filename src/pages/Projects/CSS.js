@@ -12,9 +12,9 @@ const CSS = () => {
                 <div className="hero-content text-center text-neutral-content" >
                     <div className="max-w-md">
                         <Avatar></Avatar>
-                        <h1 className="mb-5  text-xl lg:text-5xl font-bold">WELCOME TO</h1>
-                        <h1 className="mb-5  text-xl lg:text-5xl font-bold">CSS WEB DEVELOP PROJECT</h1>
-                        <p className="mb-5">I am a curious, positive, enthusiastic and competent MERN Stack Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee. I will perform highly in this role.</p>
+                        <h1 className="mb-5  text-xl lg:text-3xl font-bold">WELCOME TO CSS</h1>
+                        <h1 className="mb-5  text-xl lg:text-3xl font-bold"><span className="text-primary">Web Develop Project</span></h1>
+
                     </div>
                 </div>
             </div>

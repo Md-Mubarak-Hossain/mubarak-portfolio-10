@@ -24,6 +24,8 @@ import Challenge from '../pages/Projects/React/Challenge';
 import Health from '../pages/Projects/React/Health';
 import Resum from '../pages/Resume/Resum';
 import MoreProjects from '../pages/Home/MoreProjects';
+import Donation from '../pages/Projects/Html/Donation';
+import WorldCup from '../pages/Projects/Html/WorldCup';
 
 const Route = () => {
     const router = createBrowserRouter([
@@ -50,6 +52,14 @@ const Route = () => {
                 {
                     path: '/html',
                     element: <Html></Html>
+                },
+                {
+                    path: '/donation',
+                    element: <Donation></Donation>
+                },
+                {
+                    path: '/cup',
+                    element: <WorldCup></WorldCup>
                 },
                 {
                     path: '/css',

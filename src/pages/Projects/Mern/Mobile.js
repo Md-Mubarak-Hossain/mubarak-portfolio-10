@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink } from 'react-external-link';
-import mobile from '../../../components/projectsImage/mobile.jpg';
+import mobile from '../../../components/projectsImage/mobile1.webp';
 import img1 from '../../../components/mern/mobile/img-1.png';
 import img2 from '../../../components/mern/mobile/img-2.png';
 import img3 from '../../../components/mern/mobile/img-3.png';
@@ -41,7 +41,7 @@ const Mobile = () => {
                         />
                     </div>
                     <div className='w-full'>
-                        <h1 className="text-2xl lg: text-xl lg:text-5xl font-bold"><span className='underlined'>MOBILE RESELL</span></h1>
+                        <h1 className="text-xl lg:text-5xl font-bold"><span className='underlined'>MOBILE RESELL</span></h1>
                         <div className="py-6">
                             <div>
                                 <h2 className='text-primary text-justify'>FEATURES</h2>
