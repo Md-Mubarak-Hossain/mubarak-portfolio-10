@@ -1,6 +1,5 @@
 import React from 'react';
 import { ExternalLink } from 'react-external-link';
-import mobile from '../../../components/projectsImage/mobile1.webp';
 import img1 from '../../../components/mern/mobile/img-1.png';
 import img2 from '../../../components/mern/mobile/img-2.png';
 import img3 from '../../../components/mern/mobile/img-3.png';
@@ -44,7 +43,7 @@ const Mobile = () => {
                         <h1 className="text-xl lg:text-5xl font-bold"><span className='underlined'>MOBILE RESELL</span></h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -57,7 +56,7 @@ const Mobile = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -70,7 +69,7 @@ const Mobile = () => {
                         </div>
                         <div className="py-6">
                             <div className='w-full'>
-                                <span className='resume mb-5'> <h2 className='text-primary  flex place-items-center w-full mb-2'>Visite <FaGithub className='mx-2'></FaGithub>repository</h2></span>
+                                <span className='resume mb-5'> <h2 className='text-violet-900  flex place-items-center w-full mb-2'>Visite <FaGithub className='mx-2'></FaGithub>repository</h2></span>
                                 <ul className='text-start flex justify-center place-items-center w-full'>
                                     <ExternalLink href='https://github.com/Md-Mubarak-Hossain/MOBILE-RESELL-CLIENT-SITE' className='px-2 flex justify-center place-items-center '>
                                         <p><AiOutlineLaptop className='mx-1'>
@@ -85,10 +84,10 @@ const Mobile = () => {
                     </div>
                 </div>
             </div>
-            <h2 className='w-full text-center pt-6 text-2xl text-primary text-bold uppercase'>About MOBILE RESELL website</h2>
+            <h2 className='w-full text-center pt-6 text-2xl text-violet-900 text-bold uppercase'>About MOBILE RESELL website</h2>
             <div className="py-6 px-3 lg:px-10 lg:flex">
                 <div className='lg:w-3/4 lg:mr-10'>
-                    <h2 className='text-primary text-justify px-2'> User Experience</h2>
+                    <h2 className='text-violet-900 text-justify px-2'> User Experience</h2>
                     <div className='full'>
                         <p className='text-justify py-2'>
                             User Experience (UX) is becoming increasingly popular as a differentiating factor in a competitive marketplace or a marketing tool for B2B digital content.
@@ -102,7 +101,7 @@ const Mobile = () => {
                     </div>
                 </div>
                 <div className="py-6 px-2 lg:w-1/4">
-                    <h2 className='text-primary text-justify'>Responsiveness</h2>
+                    <h2 className='text-violet-900 text-justify'>Responsiveness</h2>
                     <div className='w-full lg:mx-2 border p-2'>
                         <p className='text-start py-2'>
                             This is the most responsive website.

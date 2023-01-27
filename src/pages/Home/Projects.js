@@ -3,20 +3,18 @@ import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import mern from '../../components/assets/mern.webp';
 import react from '../../components/assets/react.png';
 import js from '../../components/assets/js.jpg';
-import css from '../../components/assets/css.jpg';
-import htmlImg from '../../components/assets/html.jpg';
 import '../../layouts/Main.css';
 import '../../components/Animation/Animation.css';
 import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
-        <div className='py-5'>
+        <div id='projects' className='py-5'>
             <div className='flex flex-col place-items-center '>
-                <p className='text-3xl font-bold'>Projects</p>
-                <p><AiOutlineFundProjectionScreen className='w-32 h-32 text-primary text-3xl font-extrabold'></AiOutlineFundProjectionScreen></p>
+                <p className='text-3xl font-bold uppercase'>Projects</p>
+                <p><AiOutlineFundProjectionScreen className='w-32 h-32 text-violet-900 text-3xl font-extrabold'></AiOutlineFundProjectionScreen></p>
             </div>
-            <h2 className='font-bold text-4xl text-primary underlined'>Different Categories Projects</h2>
-            <div className='p-5 grid grid-cols-1 gap-1 lg:grid-cols-5'>
+            <h2 className='font-bold text-xl lg:text-3xl text-violet-900 underlined uppercase'>Different Categories Projects</h2>
+            <div className='p-5 grid grid-cols-1 gap-1 lg:grid-cols-3'>
                 <div className="card bg-base-100">
                     <div className="card-body flex flex-col place-items-center ">
                         <h2 className="card-title">MERN Stack</h2>
@@ -44,26 +42,6 @@ const Projects = () => {
                         <p>These are raw JavaScript base projects</p>
                         <div className="card-actions justify-end">
                             <Link to='/js'><button className="btn btn-outline btn-primary">See Projects</button></Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100">
-                    <div className="card-body flex flex-col place-items-center">
-                        <h2 className="card-title">CSS</h2>
-                        <img src={css} alt="" className='lg:h-20 lg:w-64' />
-                        <p>These are raw css3, tailwindcss, bootstrap, materialUI base projects</p>
-                        <div className="card-actions justify-end">
-                            <Link to='/css'><button className="btn btn-outline btn-primary">See Projects</button></Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100">
-                    <div className="card-body flex flex-col place-items-center">
-                        <h2 className="card-title">HTML5</h2>
-                        <img src={htmlImg} alt="" className='lg:h-20 lg:w-64' />
-                        <p>These are html5 base projects</p>
-                        <div className="card-actions justify-end">
-                            <Link to='/html'><button className="btn btn-outline btn-primary">See Projects</button></Link>
                         </div>
                     </div>
                 </div>

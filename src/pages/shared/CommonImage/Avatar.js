@@ -1,14 +1,13 @@
 import React from 'react';
-import profile from '../../../components/assets/halfImg-2.png';
+import profile from '../../../components/assets/MubarakResumePhoto.png';
 const Avatar = () => {
     return (
-        <div>
-            <div className="flex flex-col justify-center items-center place-items-center">
-                <div className="w-32 h-32 lg:w-56 lg:h-56 rounded-full ring ring-warning">
-                    <img src={profile} alt='' className='w-32 h-32 lg:w-56 lg:h-56 rounded-full' />
+        <div className='w-full p-2'>
+            <div className="flex avatar flex-col justify-center items-center place-items-center">
+                <div className="w-32 h-32 lg:w-72 lg:h-72">
+                    <img src={profile} alt='' className='w-32 h-32 lg:w-72 lg:h-72 rounded-full bg-fuchsia-500' />
                 </div>
             </div>
-            <h1 className="mb-5 text-xl lg:text-3xl font-bold">Hi,I am Md Mubarak Hossain</h1>
         </div>
     );
 };

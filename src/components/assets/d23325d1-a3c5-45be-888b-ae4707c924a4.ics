@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20230126T024113Z
+UID:calendly-633955272
+DTSTART:20230209T163000Z
+DTEND:20230209T170000Z
+CLASS:PRIVATE
+DESCRIPTION:Event Name: Career Services Office Hours\nEvent Description: Th
+ is is the biweekly time slot for Career Services Office Hours.\nDate & Tim
+ e: 10:30pm - 11:00pm (Asia/Dhaka) on Thursday\, February 9\, 2023\nLocatio
+ n:   https://microverse.zoom.us/j/732346749?pwd=aUYzSEZJWG5xVEEyQURjTkp2NE
+ hlUT09\n\nPlease share anything that will help prepare for our meeting.: I
+ nternational Resume and American Job base resume\n\nNeed to make changes t
+ o this event?\nCancel: https://calendly.com/cancellations/d23325d1-a3c5-45
+ be-888b-ae4707c924a4\nReschedule: https://calendly.com/reschedulings/d2332
+ 5d1-a3c5-45be-888b-ae4707c924a4\n
+LOCATION:  https://microverse.zoom.us/j/732346749?pwd=aUYzSEZJWG5xVEEyQURjT
+ kp2NEhlUT09
+SUMMARY:Career Services Office Hours with Microverse Career Services
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

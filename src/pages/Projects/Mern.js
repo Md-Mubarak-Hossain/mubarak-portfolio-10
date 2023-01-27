@@ -1,5 +1,4 @@
 import React from 'react';
-import { ExternalLink } from 'react-external-link';
 import mern from '../../components/assets/mern.webp';
 import mobile from '../../components/projectsImage/mobile1.webp';
 import hotel from '../../components/projectsImage/hotel.webp';
@@ -32,7 +31,7 @@ const Mern = () => {
                         <h1 className="text-xl lg:text-5xl font-bold">MOBILE RESELL</h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -45,7 +44,7 @@ const Mern = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -72,7 +71,7 @@ const Mern = () => {
                         <h1 className="text-xl lg:text-5xl font-bold">HOTEL AT NIGHT</h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -85,7 +84,7 @@ const Mern = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -111,7 +110,7 @@ const Mern = () => {
                         <h1 className="text-xl lg:text-4xl font-bold">PROGRAMMING SCHOOL</h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -124,7 +123,7 @@ const Mern = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -151,7 +150,7 @@ const Mern = () => {
                         <h1 className=" text-xl lg:text-5xl font-bold">LAWER GHHOR</h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -164,7 +163,7 @@ const Mern = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>

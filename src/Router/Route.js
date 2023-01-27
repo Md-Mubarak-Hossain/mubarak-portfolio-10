@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from '../layouts/Main';
 import About from '../pages/Home/About';
 import Blog from '../pages/Home/Blog';
-import Email from '../pages/Home/Email';
+import Email from '../pages/Home/Contact';
 import Home from '../pages/Home/Home';
 import Projects from '../pages/Home/Projects';
 import Skills from '../pages/Home/Skills';
@@ -25,6 +25,7 @@ import Health from '../pages/Projects/React/Health';
 import MoreProjects from '../pages/Home/MoreProjects';
 import Donation from '../pages/Projects/Html/Donation';
 import WorldCup from '../pages/Projects/Html/WorldCup';
+import ProfileRound from '../pages/Home/ProfileRound';
 
 const Route = () => {
     const router = createBrowserRouter([
@@ -36,6 +37,7 @@ const Route = () => {
                     path: '/',
                     element: <Home></Home>
                 },
+
                 {
                     path: '/skills',
                     element: <Skills></Skills>
@@ -125,8 +127,8 @@ const Route = () => {
                     element: <Blog></Blog>
                 },
                 {
-                    path: '/contact',
-                    element: <Email></Email>
+                    path: '/profile',
+                    element: <ProfileRound></ProfileRound>
                 }
             ]
 
@@ -138,8 +140,7 @@ const Route = () => {
     ])
     return (
         <RouterProvider router={router}>
-
-        </RouterProvider >
+        </RouterProvider>
     );
 };
 

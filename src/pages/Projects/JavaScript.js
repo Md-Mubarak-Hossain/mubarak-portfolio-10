@@ -13,7 +13,7 @@ const JavaScript = () => {
                     <div className="max-w-md">
                         <Avatar></Avatar>
                         <h1 className="mb-5  text-xl lg:text-3xl font-bold">WELCOME TO</h1>
-                        <h1 className="mb-5  text-xl lg:text-3xl font-bold">JavaScript <span className="text-primary">Web Develop Project</span></h1>
+                        <h1 className="mb-5  text-xl lg:text-3xl font-bold">JavaScript <span className="text-violet-900">Web Develop Project</span></h1>
 
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const JavaScript = () => {
                         <h1 className=" text-xl lg:text-5xl font-bold">DAILY NEWS</h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -42,7 +42,7 @@ const JavaScript = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -69,7 +69,7 @@ const JavaScript = () => {
                         <h1 className=" text-xl lg:text-5xl font-bold">Select Five Best</h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -82,7 +82,7 @@ const JavaScript = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>

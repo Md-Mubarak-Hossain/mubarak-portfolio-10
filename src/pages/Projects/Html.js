@@ -1,5 +1,4 @@
 import React from 'react';
-import { ExternalLink } from 'react-external-link';
 import html from '../../components/assets/html.jpg';
 import donation from '../../components/Html/Donation/img-0.png';
 import cup from '../../components/Html/cup/img-0.png';
@@ -14,8 +13,7 @@ const Html = () => {
                     <div className="max-w-md">
                         <Avatar></Avatar>
                         <h1 className="mb-5  text-xl lg:text-3xl font-bold">WELCOME TO</h1>
-                        <h1 className="mb-5  text-xl lg:text-3xl font-bold">HTML5 <span className="text-primary">Web Develop Project</span></h1>
-
+                        <h1 className="mb-5  text-xl lg:text-3xl font-bold">HTML5 <span className="text-violet-900">Web Develop Project</span></h1>
                     </div>
                 </div>
             </div>
@@ -30,7 +28,7 @@ const Html = () => {
                         <h1 className=" text-xl lg:text-5xl font-bold">DONATION</h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -43,7 +41,7 @@ const Html = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -69,7 +67,7 @@ const Html = () => {
                         <h1 className=" text-xl lg:text-5xl font-bold">World Cup</h1>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>FEATURES</h2>
+                                <h2 className='text-violet-900 text-justify'>FEATURES</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
@@ -82,7 +80,7 @@ const Html = () => {
                         </div>
                         <div className="py-6">
                             <div>
-                                <h2 className='text-primary text-justify'>Technologies</h2>
+                                <h2 className='text-violet-900 text-justify'>Technologies</h2>
                                 <ul className='text-start pl-5'>
                                     <li className='list-disc'>REACT.JS, TailwindCSS, EXPRESS.JS, NODE.JS, MongoDB
                                     </li>
