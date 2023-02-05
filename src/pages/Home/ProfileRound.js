@@ -28,7 +28,7 @@ const ProfileRound = () => {
                                 </div>
                             </div>
                          </div>
-                                        <h2 className='text-xl font-semibold uppercase text-white'>Experience</h2>
+                  <h2 className='text-xl font-semibold uppercase text-white'>Experience</h2>
                     </div>
                 </div> 
             </div>
